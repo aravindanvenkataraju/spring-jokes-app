@@ -1,0 +1,1 @@
+A simple application with Spring5 to generate Cuck Norris Jokes
