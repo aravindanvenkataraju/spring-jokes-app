@@ -9,7 +9,7 @@ import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 public class SpringJokesConfiguration {
 	
 	@Bean
-	public ChuckNorrisQuotes chuckNorrisQuotes() {
+	public ChuckNorrisQuotes chuckNorrisQuotes2() {
 		return new ChuckNorrisQuotes();
 	}
 	@Bean
