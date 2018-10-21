@@ -13,9 +13,9 @@ public class ChuckNorrisJokesServiceImpl implements JokesService {
 		return chuckNorrisQuotes.getRandomQuote();
 	}
 
-	public ChuckNorrisJokesServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
+	public ChuckNorrisJokesServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes2) {
 		super();
-		this.chuckNorrisQuotes = chuckNorrisQuotes;
+		this.chuckNorrisQuotes = chuckNorrisQuotes2;
 	}
 	
 }
